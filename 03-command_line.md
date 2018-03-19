@@ -20,8 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>
+* `pwd` : Prints the current working directory
+* `mkdir` : Makes a new directory
+* `rmdir` : Removes a directory
+* `touch` : Resets a file's timestamp, or creates a file if it does not exist
+* `rm` : Removes a file
+* `mv` : Moves or can be used to rename a file
+* `ls` : List directory, option --all (-a) to list all files
+* `cp` : Copies a file from one directory to another
+* `less` : Reads a text file
+* `echo` : Prints the arguments of a function or command
 ---
 
 ### Q2.  List Files in Unix   
@@ -35,15 +44,26 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> 
+* `ls` : Lists visible files in the current working directory
+* `ls -a` : Lists --all items in current owkring directory, including hidden ones
+* `ls -l` : Lists items in long format (more details)
+* `ls -lh` : In addition to long formatting, makes the text "human-readable", which just means it shorthands suffixes
+* `ls -lah` : In addition to being long and human-readable, it will also list hidden files
+* `ls -t` : Sorts items by their modification time
+* `ls -Glp` : Lists items without the group name, in long format, and appends a forward slash to directories
 ---
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> 
+* `ls --color` : Makes things pretty!
+* `ls -d` : Lists directories 
+* `ls -r` : Reverses the sorting order
+* `ls -R` : Recursively lists directory contents
+* `ls -s` : Returns the file sizes in blocks
 
 ---
 
@@ -51,7 +71,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> `xargs` simply allows a user to have multiple calls of a specified command.  
+For example, if you wanted to create multiple files with the touch command you could use `$ xargs touch` (as opposed to typing ` $ touch` multiple times), which will create multiple (non-duplicating) files per line entered after the command is called. To submit the command, CTRL+D is used.
 
  
 
