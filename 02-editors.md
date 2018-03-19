@@ -61,3 +61,10 @@ Sublime is probably the most popular editor for new coders. You can set it up to
 Spyder and PyCharm are IDEs for Python. They try to give you a fully configured setup out of the box.
 
 We will also use Jupyter notebooks, but this does not remove the need for proficiency in an editor or IDE.
+
+---
+> 
+ * **Typing speed**: 82 WPM, 1 error
+ * **Terminal editor I'm familiar with**: _nano_, yes I can do those basic tasks
+ * **IDE I'm familiar with**: _Spyder_, but I may start using _PyCharm_ (better debugger)
+
